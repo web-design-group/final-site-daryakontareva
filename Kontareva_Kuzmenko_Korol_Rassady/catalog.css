@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Prosto+One&family=Unbounded:wght@200..900&display=swap');
+
+* {
+    margin: 0%;
+
+}
+
+
+
+
+
+header {
+    background-color: #718B5F;
+    height: 110px;
+
+}
+
+.header-top {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 17px;
+margin-left: 280px ;
+margin-right: 280px;
+}
+
+
+
+.nav a{
+    text-decoration: none;
+    color: #000000;
+    font-family: "League Spartan", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+  margin-right: 164px;
+  align-items: center;
+}
+
+.header-icon {
+    display: flex;
+    
+}
+.icon {
+    margin-right: 36px;
+}
+
+.site-header a:hover {
+    color: #29651E;
+}
+
+
+
+.catalog_picture {
+width: 100%;
+background-image: url('/photos/catalog1.png');
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center ;
+
+}
+
+.catalog_picture h1 {
+color: #ffffff;
+font-family: "Unbounded", sans-serif;
+font-size: 95px;
+white-space: nowrap;
+
+}
+
+.catalog_picture h4 {
+    color: #ffffff;
+    font-family: "League Spartan", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+
+.catalog_picture {
+    padding-top: 645px;
+    padding-left: 270px;
+    padding-bottom: 110px ;
+}
+
+
+
+
+.filtration {
+    height: auto;
+    width: auto;
+    background-color: #718B5F;
+    justify-content: center;
+    align-items: center;
+    margin-left: 280px;
+    margin-right: 280px;
+}
+
+.filtration_text {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr ;
+    font-size: 36px;
+    font-family: "League Spartan", sans-serif;
+    font-weight: 600;
+    padding: 19px;
+    padding-left: 200px;
+    margin-top: 90px;
+}
+
+
+
+
+.card {
+ width: 440px;  
+ box-shadow: 2px 2px 4px rgba(61, 105, 16, 0.5) ;
+
+}
+
+.card_bottom {
+background-color: #CBEEB6;
+font-size: 36px;
+font-family: "League Spartan", sans-serif;
+font-weight: 600;
+padding: 20px 20px;
+
+}
+
+.card_info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_price {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+
+
+
+
+.catalog{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+justify-content: center;
+width: 100%;
+max-width: 1000px;
+padding: 0 15px;
+margin: 0 auto;
+gap: 95px 20px;
+padding: 100px 0;
+
+}
+ 
+
+
+
+
+
+.site-footer {
+    height: 318px;
+    background-color: #718B5F;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 280px;
+    padding-right: 280px ;
+}
+
+.footer-main {
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo{
+margin-right: 24px;
+}
+.footer-info {
+font-size: 24px;
+font-family: "League Spartan", sans-serif;
+}
+
+.footer-text h4 {
+font-family: "League Spartan", sans-serif;
+font-size: 36px;
+}
+
+.footer-info p {
+    margin-top: 28px;
+}
+
+.footer_mail {
+    display: flex;
+    flex-direction: row;
+
+}
